@@ -1,0 +1,114 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            RUNID-CONTROL:
+                args:
+                    - --full
+                    - --rho_R
+                    - "0"
+                    - --num_steps
+                    - "10000"
+                    - --save_interval
+                    - "500"
+                    - --save_dir
+                    - v2_runs/mainb_oxeonly_rhoR000_control
+                    - --name
+                    - oxeonly_rhoR000_control
+                codePath: train_repair_mainb.py
+                codePathLocal: train_repair_mainb.py
+                cpu_count: 56
+                cpu_count_logical: 112
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "107374182400"
+                        used: "582250496"
+                email: <EMAIL-REDACTED>
+                executable: <PYTHON-EXECUTABLE-REDACTED>
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-A
+                host: HOST-A
+                memory:
+                    total: "1081803640832"
+                os: Linux-6.8.0-100-generic-x86_64-with-glibc2.35
+                program: train_repair_mainb.py
+                python: CPython 3.10.20
+                root: .
+                startedAt: "2026-06-23T23:50:09.648171Z"
+                writerId: RUNID-CONTROL
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 2
+                - 3
+                - 11
+                - 12
+                - 45
+                - 49
+            "2":
+                - 2
+                - 3
+                - 11
+                - 12
+                - 45
+                - 49
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.20
+            "5": 0.25.1
+            "6": 4.38.2
+            "12": 0.25.1
+            "13": linux-x86_64
+B_P:
+    value: 128
+B_R:
+    value: 0
+alpha:
+    value: 0.5
+chunk_source:
+    value: predicted
+clip_gradient:
+    value: 1
+coverage_ok:
+    value: true
+lr:
+    value: 1e-06
+lr_schedule:
+    value: constant_flat_no_decay
+lr_warmup:
+    value: 200
+num_steps:
+    value: 10000
+path:
+    value: B
+repair_episodes:
+    value: 0
+repair_frames:
+    value: 0
+repair_steps_per_epoch:
+    value: 0
+rho_R:
+    value: 0
+save_dir:
+    value: v2_runs/mainb_oxeonly_rhoR000_control
+save_interval:
+    value: 500
+seed:
+    value: 42
+v1_path:
+    value: checkpoints_distill_v2
+v1_step:
+    value: 300000
+weight_decay:
+    value: 0.01

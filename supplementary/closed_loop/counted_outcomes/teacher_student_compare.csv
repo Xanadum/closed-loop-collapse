@@ -1,0 +1,9 @@
+model,set,success,target,grasp,moved,consecutive,n
+v1,in-dist,1,1,17,25,16,36
+v1,held-out,0,0,17,30,14,36
+teacher15,in-dist,19,19,30,35,29,36
+teacher15,held-out,17,17,30,34,28,36
+repair8000,in-dist,24,24,35,35,33,36
+repair8000,held-out,18,18,34,33,32,36
+repair6000,held-out,20,20,34,33,34,36
+repair10000,held-out,21,21,33,35,33,36

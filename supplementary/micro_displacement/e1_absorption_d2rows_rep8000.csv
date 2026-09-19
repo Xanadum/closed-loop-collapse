@@ -1,0 +1,15 @@
+checkpoint,offset,segment,absorption_frac,n_episodes,source_path
+repaired_8000,0.000,full,,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.000,late,,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.002,full,+0.8028,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.002,late,+1.2113,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.004,full,+1.0188,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.004,late,+1.1270,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.006,full,+0.9865,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.006,late,+1.1082,6,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.008,full,+0.9124,3,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.008,late,+0.8121,3,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.012,full,+0.0612,1,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.012,late,-0.0542,1,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.020,full,,0,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv
+repaired_8000,0.020,late,,0,eval_logs_e1_rep8000_ztrace|e1_absorption_detail_rep8000.csv

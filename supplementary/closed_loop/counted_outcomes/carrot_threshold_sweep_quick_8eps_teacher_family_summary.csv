@@ -1,0 +1,13 @@
+tag,policy,task,rng,average_success,total_videos,success_videos,failure_videos,moved_correct_obj_true,is_src_obj_grasped_true,consecutive_grasp_true,src_on_target_true
+student8l_carrot_t0p45_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,4,0,0,0
+student8l_carrot_t0p55_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,4,0,0,0
+student8l_carrot_t0p65_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,3,2,1,0
+student8l_carrot_t0p75_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,3,3,3,0
+student8l_carrot_t0p85_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,3,2,2,0
+student8l_carrot_t0p90_rng0_eps0_8_steps60,student8l,carrot,0,0.0,8,0,8,0,1,1,0
+teacher15_carrot_t0p45_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,2,0,0,0
+teacher15_carrot_t0p55_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,2,0,0,0
+teacher15_carrot_t0p65_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,3,1,1,0
+teacher15_carrot_t0p75_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,2,0,0,0
+teacher15_carrot_t0p85_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,3,0,0,0
+teacher15_carrot_t0p90_rng0_eps0_8_steps60,teacher15,carrot,0,0.0,8,0,8,3,0,0,0

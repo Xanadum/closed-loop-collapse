@@ -1,0 +1,4 @@
+floor,success,moved,grasp,consecutive,target,n,trace_grasped,mean_post_grasp_net_z,late_net_z,mean_post_grasp_x,mean_post_grasp_y
+base,2,26,17,16,2,36,3,-0.00657,-0.00786,0.00160,0.00436
+0.0,0,26,16,15,0,36,3,0.00118,0.00036,0.00306,0.00245
+0.002,2,29,16,16,2,36,2,0.00312,0.00370,0.00352,0.00284

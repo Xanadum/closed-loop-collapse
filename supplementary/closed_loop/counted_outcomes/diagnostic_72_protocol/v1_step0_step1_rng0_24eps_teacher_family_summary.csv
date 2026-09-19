@@ -1,0 +1,5 @@
+tag,policy,task,rng,average_success,total_videos,success_videos,failure_videos,moved_correct_obj_true,is_src_obj_grasped_true,consecutive_grasp_true,src_on_target_true
+step0_305k_eggplant_threshold075_rng0_eps0_24,unknown,eggplant,0,0.0,24,0,24,19,16,13,0
+step1_305k_eggplant_threshold075_rng0_eps0_24,unknown,eggplant,0,0.0,24,0,24,20,12,10,0
+teacher15_eggplant_threshold075_rng0_eps0_24,teacher15,eggplant,0,0.625,24,15,9,20,20,19,15
+v1_300k_eggplant_threshold075_rng0_eps0_24,unknown,eggplant,0,0.0,24,0,24,18,11,11,0

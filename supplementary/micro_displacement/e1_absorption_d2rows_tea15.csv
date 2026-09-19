@@ -1,0 +1,15 @@
+checkpoint,offset,segment,absorption_frac,n_episodes,source_path
+teacher15,0.000,full,,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.000,late,,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.002,full,+0.0901,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.002,late,-0.0440,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.004,full,+1.0994,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.004,late,+1.0979,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.006,full,+0.8204,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.006,late,+0.8793,6,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.008,full,+0.7429,3,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.008,late,+0.9679,3,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.012,full,+0.2515,1,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.012,late,+0.2202,1,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.020,full,,0,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv
+teacher15,0.020,late,,0,eval_logs_e1_tea15_ztrace|e1_absorption_detail_tea15.csv

@@ -1,0 +1,5 @@
+tag,policy,task,rng,average_success,total_videos,success_videos,failure_videos,moved_correct_obj_true,is_src_obj_grasped_true,consecutive_grasp_true,src_on_target_true
+student8l_carrot_threshold075_rng0_24eps,student8l,carrot,0,0.0,24,0,24,10,12,11,0
+student8l_eggplant_threshold075_rng0_24eps,student8l,eggplant,0,0.0,24,0,24,12,11,10,0
+teacher15_carrot_threshold075_rng0_24eps,teacher15,carrot,0,0.0,24,0,24,9,5,4,0
+teacher15_eggplant_threshold075_rng0_24eps,teacher15,eggplant,0,0.625,24,15,9,20,20,19,15

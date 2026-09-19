@@ -1,0 +1,476 @@
+{
+  "params": {
+    "teacher": {
+      "model": "Teacher-12L",
+      "total_M": 202.458636,
+      "transformer_M": 88.912128,
+      "obs_tokenizer_M": 2.116096,
+      "task_tokenizer_M": 109.628544,
+      "head_M": 1.801868,
+      "other_M": 0.0
+    },
+    "student": {
+      "model": "Student-8L",
+      "total_M": 174.107148,
+      "transformer_M": 60.56064,
+      "obs_tokenizer_M": 2.116096,
+      "task_tokenizer_M": 109.628544,
+      "head_M": 1.801868,
+      "other_M": 0.0
+    }
+  },
+  "latency": {
+    "teacher": {
+      "model": "Teacher-12L",
+      "real_batch": {
+        "mean_ms": 122.70958339329809,
+        "std_ms": 2.856443094921376,
+        "p50_ms": 122.0096223987639,
+        "p95_ms": 130.05215524462983,
+        "p99_ms": 132.9336733953096,
+        "freq_hz": 8.149322753341007
+      },
+      "example_fallback": {
+        "mean_ms": 121.06654844712466,
+        "std_ms": 1.5819271258136334,
+        "p50_ms": 120.57603686116636,
+        "p95_ms": 124.1119375335984,
+        "p99_ms": 124.78153867647052,
+        "freq_hz": 8.25991995994456
+      },
+      "mean_ms": 122.70958339329809,
+      "std_ms": 2.856443094921376,
+      "p50_ms": 122.0096223987639,
+      "p95_ms": 130.05215524462983,
+      "p99_ms": 132.9336733953096,
+      "freq_hz": 8.149322753341007,
+      "primary_path": "real_batch"
+    },
+    "student": {
+      "model": "Student-8L",
+      "real_batch": {
+        "mean_ms": 104.12148177158087,
+        "std_ms": 1.7081188172991295,
+        "p50_ms": 103.7719399901107,
+        "p95_ms": 107.20874445978552,
+        "p99_ms": 109.43272583885118,
+        "freq_hz": 9.60416604705814
+      },
+      "example_fallback": {
+        "mean_ms": 103.01958709489554,
+        "std_ms": 1.4128159673085565,
+        "p50_ms": 102.68195543903857,
+        "p95_ms": 105.45241857180372,
+        "p99_ms": 108.21831188630313,
+        "freq_hz": 9.7068919435569
+      },
+      "mean_ms": 104.12148177158087,
+      "std_ms": 1.7081188172991295,
+      "p50_ms": 103.7719399901107,
+      "p95_ms": 107.20874445978552,
+      "p99_ms": 109.43272583885118,
+      "freq_hz": 9.60416604705814,
+      "primary_path": "real_batch"
+    }
+  },
+  "action_quality": {
+    "teacher": [
+      {
+        "model": "Teacher-12L",
+        "dataset": "bridge_dataset",
+        "n_trajs": 30,
+        "mse": 5.898886683032288,
+        "xyz_angle": 1.514764996532777,
+        "xyz_angle_accuracy": 0.07296849087893864,
+        "xyz_accuracy": 0.0,
+        "gripping_accuracy": 0.5,
+        "gripping_accuracy_full": 0.40234375,
+        "horizon_per_step_mean_mag": [
+          0.8237534165382385,
+          0.8127886056900024,
+          0.8230833411216736,
+          0.8296303749084473
+        ],
+        "horizon_per_step_std_mag": [
+          0.36959007382392883,
+          0.3705868124961853,
+          0.3742459714412689,
+          0.3636476695537567
+        ],
+        "horizon_per_step_var_mag": [
+          0.13659682869911194,
+          0.13733458518981934,
+          0.14006005227565765,
+          0.13223962485790253
+        ],
+        "horizon_horizon_divergence": 0.00587695837020874
+      },
+      {
+        "model": "Teacher-12L",
+        "dataset": "fractal20220817_data",
+        "n_trajs": 30,
+        "mse": 6.934243136925456,
+        "xyz_angle": 1.2109978839878435,
+        "xyz_angle_accuracy": 0.17847286108555657,
+        "xyz_accuracy": 0.03219871205151794,
+        "gripping_accuracy": 0.5,
+        "gripping_accuracy_full": 0.4885193982581156,
+        "horizon_per_step_mean_mag": [
+          0.728259265422821,
+          0.6948125958442688,
+          0.7067162990570068,
+          0.7074458599090576
+        ],
+        "horizon_per_step_std_mag": [
+          0.4103444814682007,
+          0.41654181480407715,
+          0.4136996269226074,
+          0.40956276655197144
+        ],
+        "horizon_per_step_var_mag": [
+          0.16838259994983673,
+          0.17350707948207855,
+          0.17114737629890442,
+          0.16774167120456696
+        ],
+        "horizon_horizon_divergence": -0.020813405513763428
+      },
+      {
+        "model": "Teacher-12L",
+        "dataset": "kuka",
+        "n_trajs": 30,
+        "mse": 4.81775705538429,
+        "xyz_angle": 1.5038983848202845,
+        "xyz_angle_accuracy": 0.14224137931034483,
+        "xyz_accuracy": 0.0,
+        "gripping_accuracy": 0.5347222222222222,
+        "gripping_accuracy_full": 0.5849056603773585,
+        "horizon_per_step_mean_mag": [
+          0.38953837752342224,
+          0.34006184339523315,
+          0.28483134508132935,
+          0.2708011865615845
+        ],
+        "horizon_per_step_std_mag": [
+          0.44949033856391907,
+          0.43020543456077576,
+          0.41197633743286133,
+          0.39414525032043457
+        ],
+        "horizon_per_step_var_mag": [
+          0.20204155147075653,
+          0.1850767284631729,
+          0.1697244942188263,
+          0.1553504765033722
+        ],
+        "horizon_horizon_divergence": -0.11873719096183777
+      },
+      {
+        "model": "Teacher-12L",
+        "dataset": "utokyo_pr2_opening_fridge_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 8.466849119976954,
+        "xyz_angle": 0.24609917088744274,
+        "xyz_angle_accuracy": 0.920457091642393,
+        "xyz_accuracy": 0.9202330271118082,
+        "gripping_accuracy": 0.4972677595628415,
+        "gripping_accuracy_full": 0.7033385615057136,
+        "horizon_per_step_mean_mag": [
+          1.5021625757217407,
+          1.4937318563461304,
+          1.5166120529174805,
+          1.5601894855499268
+        ],
+        "horizon_per_step_std_mag": [
+          0.517109751701355,
+          0.535631000995636,
+          0.5371261835098267,
+          0.5327575206756592
+        ],
+        "horizon_per_step_var_mag": [
+          0.2674024999141693,
+          0.2869005799293518,
+          0.28850454092025757,
+          0.28383058309555054
+        ],
+        "horizon_horizon_divergence": 0.058026909828186035
+      },
+      {
+        "model": "Teacher-12L",
+        "dataset": "nyu_rot_dataset_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 6.223974326021142,
+        "xyz_angle": 1.3044605658919204,
+        "xyz_angle_accuracy": 0.09019607843137255,
+        "xyz_accuracy": 0.0196078431372549,
+        "gripping_accuracy": NaN,
+        "gripping_accuracy_full": 0.8855555555555555,
+        "horizon_per_step_mean_mag": [
+          3.0998404026031494,
+          2.53515362739563,
+          2.4185187816619873,
+          2.510197401046753
+        ],
+        "horizon_per_step_std_mag": [
+          1.6705102920532227,
+          1.6231144666671753,
+          1.563834309577942,
+          1.5828646421432495
+        ],
+        "horizon_per_step_var_mag": [
+          2.790604829788208,
+          2.634500503540039,
+          2.44557785987854,
+          2.505460500717163
+        ],
+        "horizon_horizon_divergence": -0.5896430015563965
+      },
+      {
+        "model": "Teacher-12L",
+        "dataset": "dlr_sara_pour_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 5.382741710420883,
+        "xyz_angle": 1.4099476575396426,
+        "xyz_angle_accuracy": 0.05896510228640193,
+        "xyz_accuracy": 0.01263537906137184,
+        "gripping_accuracy": NaN,
+        "gripping_accuracy_full": 0.11925287356321838,
+        "horizon_per_step_mean_mag": [
+          1.3584836721420288,
+          1.344709873199463,
+          1.3611063957214355,
+          1.3869630098342896
+        ],
+        "horizon_per_step_std_mag": [
+          0.49038761854171753,
+          0.5000754594802856,
+          0.49370861053466797,
+          0.491870254278183
+        ],
+        "horizon_per_step_var_mag": [
+          0.24048000574111938,
+          0.25007545948028564,
+          0.24374818801879883,
+          0.2419363409280777
+        ],
+        "horizon_horizon_divergence": 0.028479337692260742
+      }
+    ],
+    "student": [
+      {
+        "model": "Student-8L",
+        "dataset": "bridge_dataset",
+        "n_trajs": 30,
+        "mse": 6.502681722959463,
+        "xyz_angle": 1.448374345266819,
+        "xyz_angle_accuracy": 0.0704,
+        "xyz_accuracy": 0.0,
+        "gripping_accuracy": 0.5048543689320388,
+        "gripping_accuracy_full": 0.44593202883625127,
+        "horizon_per_step_mean_mag": [
+          0.5751209855079651,
+          0.5838227868080139,
+          0.5880944728851318,
+          0.5751528143882751
+        ],
+        "horizon_per_step_std_mag": [
+          0.4638058543205261,
+          0.4639938473701477,
+          0.4670867323875427,
+          0.46348926424980164
+        ],
+        "horizon_per_step_var_mag": [
+          0.21511587500572205,
+          0.21529029309749603,
+          0.21817001700401306,
+          0.21482229232788086
+        ],
+        "horizon_horizon_divergence": 3.1828880310058594e-05
+      },
+      {
+        "model": "Student-8L",
+        "dataset": "fractal20220817_data",
+        "n_trajs": 30,
+        "mse": 5.675434075323909,
+        "xyz_angle": 1.104073953049006,
+        "xyz_angle_accuracy": 0.22805139186295503,
+        "xyz_accuracy": 0.022483940042826552,
+        "gripping_accuracy": 0.4872611464968153,
+        "gripping_accuracy_full": 0.4460093896713615,
+        "horizon_per_step_mean_mag": [
+          0.7336568236351013,
+          0.735992968082428,
+          0.7444882392883301,
+          0.7342059016227722
+        ],
+        "horizon_per_step_std_mag": [
+          0.39937761425971985,
+          0.40067368745803833,
+          0.39606615900993347,
+          0.39150846004486084
+        ],
+        "horizon_per_step_var_mag": [
+          0.15950247645378113,
+          0.1605394035577774,
+          0.15686839818954468,
+          0.1532788723707199
+        ],
+        "horizon_horizon_divergence": 0.0005490779876708984
+      },
+      {
+        "model": "Student-8L",
+        "dataset": "kuka",
+        "n_trajs": 30,
+        "mse": 4.30319674528697,
+        "xyz_angle": 1.6582599758658711,
+        "xyz_angle_accuracy": 0.10780669144981413,
+        "xyz_accuracy": 0.0,
+        "gripping_accuracy": 0.5267857142857143,
+        "gripping_accuracy_full": 0.5858823529411765,
+        "horizon_per_step_mean_mag": [
+          0.45929765701293945,
+          0.39057716727256775,
+          0.2872537672519684,
+          0.26941627264022827
+        ],
+        "horizon_per_step_std_mag": [
+          0.4746822714805603,
+          0.4504779875278473,
+          0.4086700975894928,
+          0.40727150440216064
+        ],
+        "horizon_per_step_var_mag": [
+          0.22532324492931366,
+          0.20293042063713074,
+          0.16701124608516693,
+          0.1658700853586197
+        ],
+        "horizon_horizon_divergence": -0.18988138437271118
+      },
+      {
+        "model": "Student-8L",
+        "dataset": "utokyo_pr2_opening_fridge_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 7.833188865965002,
+        "xyz_angle": 0.23702151268071842,
+        "xyz_angle_accuracy": 0.9103370786516853,
+        "xyz_accuracy": 0.9101123595505618,
+        "gripping_accuracy": 0.4918032786885246,
+        "gripping_accuracy_full": 0.6901123595505618,
+        "horizon_per_step_mean_mag": [
+          1.425000786781311,
+          1.3566431999206543,
+          1.3437451124191284,
+          1.342894434928894
+        ],
+        "horizon_per_step_std_mag": [
+          0.6386128067970276,
+          0.6548541188240051,
+          0.6747666001319885,
+          0.6812361478805542
+        ],
+        "horizon_per_step_var_mag": [
+          0.40782630443573,
+          0.42883390188217163,
+          0.4553099274635315,
+          0.4640827178955078
+        ],
+        "horizon_horizon_divergence": -0.08210635185241699
+      },
+      {
+        "model": "Student-8L",
+        "dataset": "nyu_rot_dataset_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 5.918171713037624,
+        "xyz_angle": 1.2620638951074843,
+        "xyz_angle_accuracy": 0.12352941176470589,
+        "xyz_accuracy": 0.025490196078431372,
+        "gripping_accuracy": NaN,
+        "gripping_accuracy_full": 0.8688888888888889,
+        "horizon_per_step_mean_mag": [
+          1.7362662553787231,
+          1.5969810485839844,
+          1.5900628566741943,
+          1.670198917388916
+        ],
+        "horizon_per_step_std_mag": [
+          0.888088583946228,
+          0.8288529515266418,
+          0.821040153503418,
+          0.82721346616745
+        ],
+        "horizon_per_step_var_mag": [
+          0.7887013554573059,
+          0.6869971752166748,
+          0.6741069555282593,
+          0.684282124042511
+        ],
+        "horizon_horizon_divergence": -0.06606733798980713
+      },
+      {
+        "model": "Student-8L",
+        "dataset": "dlr_sara_pour_converted_externally_to_rlds",
+        "n_trajs": 30,
+        "mse": 5.97897361816974,
+        "xyz_angle": 1.4482129865587117,
+        "xyz_angle_accuracy": 0.061371841155234655,
+        "xyz_accuracy": 0.017448856799037304,
+        "gripping_accuracy": NaN,
+        "gripping_accuracy_full": 0.14487547892720307,
+        "horizon_per_step_mean_mag": [
+          1.5405629873275757,
+          1.4464750289916992,
+          1.4157788753509521,
+          1.3879860639572144
+        ],
+        "horizon_per_step_std_mag": [
+          0.6712973117828369,
+          0.612338125705719,
+          0.6479319930076599,
+          0.6581562161445618
+        ],
+        "horizon_per_step_var_mag": [
+          0.45064011216163635,
+          0.37495800852775574,
+          0.4198158383369446,
+          0.43316957354545593
+        ],
+        "horizon_horizon_divergence": -0.15257692337036133
+      }
+    ]
+  },
+  "summary": {
+    "teacher_total_M": 202.458636,
+    "student_total_M": 174.107148,
+    "compression_ratio": 0.8599640471745547,
+    "teacher_transformer_M": 88.912128,
+    "student_transformer_M": 60.56064,
+    "transformer_compression": 0.6811291256014028,
+    "teacher_lat_mean": 122.70958339329809,
+    "student_lat_mean": 104.12148177158087,
+    "teacher_lat_p95": 130.05215524462983,
+    "student_lat_p95": 107.20874445978552,
+    "speedup": 1.1785232144745628,
+    "teacher_freq_hz": 8.149322753341007,
+    "student_freq_hz": 9.60416604705814,
+    "latency_path": "real_batch",
+    "in_dist_gripping_accuracy_teacher": 0.5115740740740741,
+    "in_dist_gripping_accuracy_student": 0.5063004099048561,
+    "in_dist_gripping_accuracy_retention": 0.9896912989995378,
+    "in_dist_xyz_angle_teacher": 1.4098870884469683,
+    "in_dist_xyz_angle_student": 1.4035694247272321,
+    "in_dist_xyz_angle_retention": 1.004501140882977,
+    "in_dist_xyz_accuracy_teacher": 0.010732904017172647,
+    "in_dist_xyz_accuracy_student": 0.007494646680942184,
+    "in_dist_xyz_accuracy_retention": 0.698286937901499,
+    "ood_gripping_accuracy_teacher": NaN,
+    "ood_gripping_accuracy_student": NaN,
+    "ood_gripping_accuracy_retention": NaN,
+    "ood_xyz_angle_teacher": 0.9868357981063353,
+    "ood_xyz_angle_student": 0.9824327981156381,
+    "ood_xyz_angle_retention": 1.0044817314722618,
+    "ood_xyz_accuracy_teacher": 0.3174920831034783,
+    "ood_xyz_accuracy_student": 0.31768380414267683,
+    "ood_xyz_accuracy_retention": 1.0006038608500862
+  }
+}

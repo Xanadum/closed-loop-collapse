@@ -1,0 +1,15 @@
+checkpoint,offset,segment,absorption_frac,n_episodes,source_path
+zerocontrol_8000,0.000,full,,4,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.000,late,,4,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.002,full,+1.0800,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.002,late,+1.9321,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.004,full,+1.2450,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.004,late,+1.8747,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.006,full,+0.4614,2,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.006,late,+0.6574,2,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.008,full,+0.6494,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.008,late,+0.9421,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.012,full,,0,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.012,late,,0,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.020,full,-0.0900,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
+zerocontrol_8000,0.020,late,-0.0524,3,eval_logs_e1_zc8000_ztrace|e1_absorption_detail_zc8000.csv
