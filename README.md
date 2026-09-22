@@ -1,10 +1,10 @@
 # Anatomy of a Closed-Loop Collapse
 
-Supplementary records for the paper (IROS 2026 ScaleInfra workshop, poster).
+Supplementary records for the paper *Anatomy of a Closed-Loop Collapse: A Causal Case Study of a Compressed VLA Policy* (IROS 2026 ScaleInfra workshop, poster).
 
-**Author:** Fengze Jia — The Ohio State University, Columbus, OH, USA
+**Author:** Fengze Jia, The Ohio State University, Columbus, OH, USA ([fengzejia.com](https://fengzejia.com))
 
-Paper: paper.pdf (arXiv link to be added)
+**Paper:** [arXiv:2609.23048](https://arxiv.org/abs/2609.23048) (a copy is included as `paper.pdf`)
 
 ## Where the paper's references point
 
@@ -26,4 +26,14 @@ Data and documents are released under CC BY 4.0 (see `LICENSE-DATA`).
 
 ## Citation
 
-To be added after the arXiv announcement.
+```bibtex
+@misc{jia2026anatomy,
+  title         = {Anatomy of a Closed-Loop Collapse: A Causal Case Study of a Compressed VLA Policy},
+  author        = {Jia, Fengze},
+  year          = {2026},
+  eprint        = {2609.23048},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2609.23048}
+}
+```
